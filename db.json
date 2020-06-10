@@ -1,41 +1,49 @@
 {
     "roles": [
         {
+          "id": 1,
           "description": "Ability to view or act on access approval requests and view configuration",
           "name": "roles/accessapproval.approver",
           "title": "Access Approval Approver"
         },
         {
+            "id": 2,
           "description": "Ability update the Access Approval configuration",
           "name": "roles/accessapproval.configEditor",
           "title": "Access Approval Config Editor"
         },
         {
+            "id": 3,
           "description": "Ability to view access approval requests and configuration",
           "name": "roles/accessapproval.viewer",
           "title": "Access Approval Viewer"
         },
         {
+            "id": 4,
           "description": "Full access to policies, access levels, and access zones",
           "name": "roles/accesscontextmanager.policyAdmin",
           "title": "Access Context Manager Admin"
         },
         {
+            "id": 5,
           "description": "Edit access to policies.  Create, edit, and change access levels and access zones.",
           "name": "roles/accesscontextmanager.policyEditor",
           "title": "Access Context Manager Editor"
         },
         {
+            "id": 6,
           "description": "Read access to policies, access levels, and access zones.",
           "name": "roles/accesscontextmanager.policyReader",
           "title": "Access Context Manager Reader"
         },
         {
+            "id": 7,
           "description": "Access to edit and deploy an action",
           "name": "roles/actions.Admin",
           "title": "Actions Admin"
         },
         {
+            "id": 8,
           "description": "Access to view an action",
           "name": "roles/actions.Viewer",
           "title": "Actions Viewer"
