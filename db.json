@@ -2,64 +2,42 @@
     "roles": [
         {
           "description": "Ability to view or act on access approval requests and view configuration",
-          "etag": "AA==",
           "name": "roles/accessapproval.approver",
-          "stage": "BETA",
           "title": "Access Approval Approver"
         },
         {
           "description": "Ability update the Access Approval configuration",
-          "etag": "AA==",
           "name": "roles/accessapproval.configEditor",
-          "stage": "BETA",
           "title": "Access Approval Config Editor"
         },
         {
           "description": "Ability to view access approval requests and configuration",
-          "etag": "AA==",
           "name": "roles/accessapproval.viewer",
-          "stage": "BETA",
           "title": "Access Approval Viewer"
         },
         {
           "description": "Full access to policies, access levels, and access zones",
-          "etag": "AA==",
           "name": "roles/accesscontextmanager.policyAdmin",
-          "stage": "GA",
           "title": "Access Context Manager Admin"
         },
         {
           "description": "Edit access to policies.  Create, edit, and change access levels and access zones.",
-          "etag": "AA==",
           "name": "roles/accesscontextmanager.policyEditor",
-          "stage": "GA",
           "title": "Access Context Manager Editor"
         },
         {
           "description": "Read access to policies, access levels, and access zones.",
-          "etag": "AA==",
           "name": "roles/accesscontextmanager.policyReader",
-          "stage": "GA",
           "title": "Access Context Manager Reader"
         },
         {
-          "etag": "AA==",
-          "name": "roles/accesscontextmanager.vpcScTroubleshooterViewer",
-          "stage": "GA",
-          "title": "VPC Service Controls Troubleshooter Viewer"
-        },
-        {
           "description": "Access to edit and deploy an action",
-          "etag": "AA==",
           "name": "roles/actions.Admin",
-          "stage": "GA",
           "title": "Actions Admin"
         },
         {
           "description": "Access to view an action",
-          "etag": "AA==",
           "name": "roles/actions.Viewer",
-          "stage": "GA",
           "title": "Actions Viewer"
         }
       ],
